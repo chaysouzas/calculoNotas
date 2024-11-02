@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Notas Finais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="container01">
+        <h1>Informe suas notas:</h1>
+        
+        <p>Digite a nota da Prova 1:</p>
+        <input type="number" name="prova01" id="prova01" placeholder="Digite a nota da Prova 1:">
+        <p>Digite a nota da Prova 2:</p>
+        <input type="number" name="prova02" id="prova02" placeholder="Digite a nota da Prova 2:">
+        <p>Digite a nota da Prova 3:</p>
+        <input type="number" name="prova03" id="prova03" placeholder="Digite a nota da Prova 3:">
+        <p>Digite a nota do Trabalho 1:</p>
+        <input type="number" name="trab1" id="trab1" placeholder="Digite a nota do Trabalho 1:">
+        <p>Digite a nota do Trabalho 2:</p>
+        <input type="number" name="trab2" id="trab2" placeholder="Digite a nota do Trabalho 2:">
+
+        <input type="button" id="clicar" value="Calcular Nota Final" onclick="calcularSituacao()"> 
+        
+        <!-- O atributo ONCLICK é usado no botão para chamar a fução de calculo e retornar o resultado esperado -->
+
+    </div>
+
+    <div id="container02">
+
+        <div id="resposta">
+        </div>
+
+        <div id="resultadoFinal">
+        
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js">
+
+    </script>
+</body>
+</html>
